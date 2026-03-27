@@ -1,154 +1,174 @@
-# 🚀 Roblox Auto Signup
+<!-- 🔥 PREMIUM BANNER -->
 
-![Stars](https://img.shields.io/github/stars/qing762/roblox-auto-signup?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/qing762/roblox-auto-signup?style=for-the-badge)
-![License](https://img.shields.io/github/license/qing762/roblox-auto-signup?style=for-the-badge)
-![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge)
+<h1 align="center">🚀 Roblox Auto Account Creator Bot</h1>
 
----
+<p align="center">
+  <b>Fast • Automated • Powerful Account Creator</b><br>
+  Create and verify Roblox accounts in seconds ⚡
+</p>
 
-> ⚠️ **Fork Notice**
-> This project is **forked from**: https://github.com/qing762/roblox-auto-signup
-> 🙏 Full credit to the original creator for the base project.
-
----
-
-> [!NOTE]
-> 📧 Support / Issues: **[Ayanshrawat90@gmail.com](mailto:Ayanshrawat90@gmail.com)**
-
-> [!WARNING]
-> This tool is provided for educational purposes only. Use it responsibly. The developer is not responsible for misuse or any consequences.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Ayanshrawat08/Roblox_Auto_Account_Creator_Bot?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/Ayanshrawat08/Roblox_Auto_Account_Creator_Bot?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Ayanshrawat08/Roblox_Auto_Account_Creator_Bot?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge" />
+</p>
 
 ---
 
-## 📌 About
+## ⚠️ Fork Credits
 
-**Roblox Auto Signup** is a fast and automated tool that:
-
-* Generates temporary email addresses
-* Creates Roblox accounts
-* Completes verification automatically
-
-⚡ Efficient • 🤖 Automated • 🆓 Free
+> This project is forked from:
+> https://github.com/qing762/roblox-auto-signup
+>
+> 🙏 Full credit to the original creator for the base functionality.
 
 ---
 
-## ⚙️ How It Works
+## 📬 Support
 
-1. A temporary email is generated using Mail.tm
-2. A Roblox account is created
-3. Email verification is completed automatically
-4. The account becomes ready for use
+📧 **[Ayanshrawat90@gmail.com](mailto:Ayanshrawat90@gmail.com)**
 
-✔ Simple and fully automated process
+---
+
+## ⚠️ Disclaimer
+
+> This project is for **educational purposes only**.
+> Use responsibly. The developer is not responsible for misuse or any consequences.
+
+---
+
+## 📌 Overview
+
+**Roblox Auto Account Creator Bot** is a fully automated tool that:
+
+✔ Generates temporary email addresses
+✔ Creates Roblox accounts
+✔ Handles verification automatically
+✔ Prepares accounts for instant use
+
+⚡ **Fast Execution**
+🤖 **Fully Automated**
+🆓 **No Paid APIs Required**
+
+---
+
+## ⚙️ Workflow
+
+```mermaid
+graph TD
+A[Generate Temp Email] --> B[Create Roblox Account]
+B --> C[Verify via Email]
+C --> D[Account Ready]
+```
 
 ---
 
 ## ✨ Features
 
-* 🌐 Works across Chromium-based environments
-* 🔐 Custom password support with strength validation
-* 🔁 Smart username generator with availability check
+* 🌐 Cross-platform compatible
+* 🔐 Custom password + strength checker
+* 🔁 Smart username generator
 * 🎭 Random avatar customization
-* 🤝 Friend adding functionality
+* 🤝 Friend adding system
 * 🧠 Advanced error handling
-* 🧩 Manual CAPTCHA solving (no API required, completely free)
-* ⚡ Fast and optimized execution
+* 🧩 Manual CAPTCHA solving (FREE)
+* ⚡ High-speed execution
 * 🧰 No webdriver required
-* 🔄 Built-in update checker
-* 🖥 Integrated browser support (Windows)
-* 🔗 Compatible with account management tools
-
----
-
-## ⚠️ Important Notes
-
-> Some features may increase folder size due to included components.
-> Ensure your system meets basic requirements before running.
+* 🔄 Auto update checker
+* 🖥 Built-in browser support
+* 🔗 Compatible with account managers
 
 ---
 
 ## 📥 Installation
 
-### 🟢 Method 1: Executable (Easy)
+### 🟢 Quick Start (Executable)
 
-* Download from the **Releases** section
-* Run the executable
-* Accounts will be saved in `accounts.txt`
+1. Download from **Releases**
+2. Run the program
+3. Accounts saved in `accounts.txt`
 
-> ⚠️ Antivirus warnings may occur (false positives)
+> ⚠️ Antivirus warnings may appear (false positives)
 
 ---
 
-### 🟡 Method 2: Python (Recommended)
+### 🟡 Python Setup
 
 Install Python:
 
-```bash id="7y2s1d"
+```bash
 https://www.python.org/downloads/
 ```
 
-Run the following commands:
+Run:
 
-```bash id="p8f3ka"
-git clone https://github.com/qing762/roblox-auto-signup/
-cd roblox-auto-signup
+```bash
+git clone https://github.com/Ayanshrawat08/Roblox_Auto_Account_Creator_Bot
+cd Roblox_Auto_Account_Creator_Bot
 pip install -r requirements.txt
 python main.py
 ```
 
 ---
 
-## 📊 Analytics (Optional)
+## 📊 Analytics
 
 This tool may collect:
 
 * Tool version
-* Anonymous user ID (random UUID)
+* Anonymous ID (UUID)
 
-❌ No personal or sensitive data is collected
+❌ No personal data collected
 
-### Disable analytics:
+### Disable:
 
 * Press `N` on first run
 * Use `--no-analytics`
-* Edit `analytics.txt` → set `analytics=0`
+* Edit `analytics.txt` → `analytics=0`
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Fork the repository, improve it, and submit a pull request 🚀
+Want to improve this project?
 
----
-
-## 📩 Contact / Support
-
-📧 **[Ayanshrawat90@gmail.com](mailto:Ayanshrawat90@gmail.com)**
+1. Fork the repo
+2. Make changes
+3. Submit a Pull Request
 
 ---
 
 ## 🏢 For Roblox Corporation
 
-If you wish to request removal of this project, please contact:
+For takedown requests:
 📧 **[Ayanshrawat90@gmail.com](mailto:Ayanshrawat90@gmail.com)**
 
 ---
 
 ## 📜 License
 
-Licensed under **GNU General Public License v3.0**
+Licensed under **GNU GPL v3.0**
 
 ---
 
-## ⭐ Support
+## ⭐ Support the Project
 
-If you find this project useful:
+If you like this project:
 
-* ⭐ Star the repository
-* 📢 Share it with others
+⭐ Star this repository
+📢 Share with others
+💡 Contribute improvements
 
 ---
 
-💻 Crafted with dedication by **Ayansh**
+## 👨‍💻 Author
+
+**Ayansh Rawat**
+💻 Developer | 🎯 Learner | 🚀 Builder
+
+---
+
+<p align="center">
+  ⚡ Built with passion & curiosity ⚡
+</p>
