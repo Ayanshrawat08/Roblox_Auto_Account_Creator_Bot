@@ -382,16 +382,20 @@ async def main():
 
                 try:
                     captcha = page.get_frame('xpath://*[@id="arkose-iframe"]')
-                    if captcha and proxyNumber >= 2 and captchaBypass != "":
-                        print(f"Captcha detected for account {x + 1}, retrying... (Attempt {captchaRetries + 1}/{maxCaptchaRetries})")
-                        bar.close()
-                        chrome.quit()
-                        captchaPresence = True
-                        captchaRetries += 1
-                        continue
-                    else:
-                        captchaPresence = False
-                except errors.ElementNotFoundError:
+
+                    if captcha:
+                        print(f"\n⚠️ CAPTCHA detected for account {x + 1}!")
+                        input("👉 Solve the CAPTCHA manually in the browser, then press ENTER to continue...")
+
+                        # Wait until CAPTCHA disappears.
+                        while page.get_frame('xpath://*[@id="arkose-iframe"]'):
+                            print("⏳ Waiting for CAPTCHA to be solved...")
+                            await asyncio.sleep(2)
+
+                        print("✅ CAPTCHA solved, continuing...\n")
+
+                    captchaPresence = False
+                except Exception:
                     captchaPresence = False
 
             except Exception as e:
